@@ -1,0 +1,149 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+    box-sizing: none ;
+}
+
+/* # para IDs
+. para class
+* para tudo */
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+/* CONTEUDO DO CABECALHO*/
+.cabecalho {
+    display: flex; /*deixa o baguio lfexivel, pode alterar sua posição etc*/
+    flex-direction: row; /* deixa os baguio em colunas ou em fileiras - row = linha*/
+    align-items: center; /*alinha os intens para o centro -  a logo e os itens no centro da linha */
+    justify-content: space-around; /* coloca os itens para o canto da tela - O item 1-imagem e o item 2-coisas escritas ficam espaçados */
+    padding: 20px; /*espacinho entre os itens do cabecalho e os cantos da tela*/
+}
+.logo-do-site{
+    height: 72px; /*tamanho da logo*/
+}
+.comunidade{
+    color: #FFF2E7;
+}
+.comunidade:hover{
+    background-color: rgba(236, 214, 196, 0.53)
+}
+.navegador{
+    display: flex; 
+    gap:32px; /*distancia entre os elementos do navegador, as coisas escritas*/
+    font-family: 'Sarala', sans-serif;
+    font-weight:400px; /*A espressura da letra*/
+    font-size: 18px;
+    color: #FFF2E7;
+    
+}
+
+/*CONTEUDO PRINCIPAL*/
+.conteudo{
+    
+    margin-bottom: 48px;
+   
+   
+}
+
+.conteudo-primario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+} 
+.conteudo-escrito{
+    display: flex;
+    flex-direction: column;
+    gap:32px; 
+}
+.titulo-pri{
+    font-family: 'Righteous';
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+
+.subtitulo-pri {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ECD6C4;
+}
+
+.botao {
+    background-color: #ecd6c4;
+    height: 67px;/*altura*/
+    width:185px; /*largura*/
+    border: none; /*tira as boradas do botão*/
+   55 /*sombrinha do botão*/
+    border-radius: 20px; /*deixar o botão redondinho*/
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px
+}
+.botao:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+.imagem-bot{
+        height:450px;
+        padding: 20px;
+}
+
+/*CONTEUDO SECUNDARIO*/
+
+.conteudo-secundario{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;  
+}
+
+.titulo-sec{
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 48px;
+    font-family: 'Righteous';
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+    margin-bottom:16px ;
+}
+
+
+.A{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 200px;
+    font-size: 16px;
+    color: #ECD6C4;
+}
+.B{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 200px;
+    font-size: 16px;
+    color: #ECD6C4;
+}
+.C{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 200px;
+    font-size:16px;
+    color: #ECD6C4;
+}
+
+.rodapé{
+    border-top: 0.4px solid #fff2e7;
+}
+.imagem-rodape{
+    padding: 20px;
+    DISPLAY: BLOCK;
+    MARGIN: 0 AUTO;
+}
+    /* OU 
+    DISPLAY: BLOCK;
+    MARGIN: 0 AUTO;*/
+
+
